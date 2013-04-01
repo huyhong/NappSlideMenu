@@ -7,7 +7,8 @@
         </TableView>
     </Window>
     
-    <NavigationGroup id="navgroup">
+    <Window>
+      <NavigationGroup id="navgroup">
      	<Window id="win">
 			<LeftNavButton>
 				<Button title="Left" onClick="openLeft"></Button>
@@ -15,14 +16,14 @@
 			<RightNavButton>
 				<Button title="Right" onClick="openRight"></Button>
 			</RightNavButton>
-     	    <TableView >
+     	    <TableView>
 	            <TableViewRow>
 	                <Label text="hello center window"></Label>
 	            </TableViewRow>
         	</TableView>
      	</Window>   
-    </NavigationGroup>
-    
+      </NavigationGroup>
+    </Window>
     <Window id="rightWindow">
         <TableView id="rightTable">
             <TableViewRow>
